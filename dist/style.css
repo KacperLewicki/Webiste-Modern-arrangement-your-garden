@@ -1,0 +1,19 @@
+body {
+    overflow-x: hidden;
+}
+.navigation {
+    margin: 0 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-left: 20px; 
+}
+
