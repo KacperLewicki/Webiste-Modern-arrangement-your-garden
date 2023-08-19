@@ -1,4 +1,3 @@
-
 const searchIcon = document.querySelector(".search-icon");
 const searchBox = document.querySelector(".search input[type='text']");
 const searchDropdown = document.querySelector(".search-dropdown");
