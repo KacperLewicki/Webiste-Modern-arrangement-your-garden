@@ -17,50 +17,49 @@
         <div class="menu-search">
             <div class="menu space-x-4 flex">
                 <div class="relative group">
-                    <button id="offerBtn" class="focus:outline-none flex items-center"><span>Oferta</span> <img class="ml-2" src="./icon/Icon-oferta.png">
-                    </button>
-                    <div id="offerSubMenu" class="submenu hidden absolute py-2 space-y-2">
-                        <button class="focus:outline-none text-violet-800">Oferta</button>
-                        <button class="focus:outline-none text-violet-800">Zdjęcia</button>
+                    <button id="offerBtn" class="focus:outline-none flex items-center"><span>Oferta</span> <img class="ml-1" src="./icon/Icon-oferta.png"></button>
+                    <div id="offerSubMenu" class="submenu hidden absolute py-2 space-y-2 transform transition-opacity opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100">
+                         <button class="focus:outline-none text-violet-800">Oferta</button>
+                         <button class="focus:outline-none text-violet-800">Zdjęcia</button>
                     </div>
                 </div>
-                <button id="aboutBtn" class="focus:outline-none">Ofirmie</button>
-                <button id="projectsBtn" class="focus:outline-none">Realizacje</button>
-                <button id="contactBtn" class="focus:outline-none">Kontakt</button>
-            </div>
-            <div class="search relative group">
-                <input type="text" placeholder="Szukaj..." class="px-1 py-1 rounded-md border border-gray-300 hidden search-input mr-20">
-                <div class="search-dropdown absolute mt-2 p-2 space-y-2 hidden group-hover:block"></div>
-                <div id="searchIcon" class="search-icon cursor-pointer ml-2 mr-16" src="./icon/lupa.png">
-                <img src="./icon/lupa.png">
-            </div>
-            </div>
-        </div>
-    </div>
+                 <button id="aboutBtn" class="focus:outline-none">Firma</button>
+                 <button id="projectsBtn" class="focus:outline-none">Realizacje</button>
+                 <button id="contactBtn" class="focus:outline-none">Kontakt</button>
+             </div>
+             <div class="search relative group">
+                 <input type="text" placeholder="Szukaj..." class="px-1 py-1 rounded-md border border-gray-300 hidden search-input md:mr-12">
+                 <div class="search-dropdown absolute mt-2 p-2 space-y-2 hidden group-hover:block"></div>
+                <div id="searchIcon" class="search-icon cursor-pointer ml-2 md:ml-0 md:mr-14">
+                    <img src="./icon/lupa.png">
+                 </div>
+             </div>
+         </div>
+     </div>
     
-
+    
     <div class="flex flex-col-reverse md:flex-row justify-center items-center h-screen mx-4 md:mx-20">
-      
-        <div class="w-full md:w-1/2 h-full mt-4 md:mt-64 md:ml-4">
-            <h1 class="mt-4 md:mt-20 font-serif text-4xl text-center md:text-left">Nowoczesna aranżacja</h1>
-            <h1 class="font-serif text-4xl text-center md:text-left">Twojego ogrodu</h1>
-            <p class="mt-4 md:mt-10 font-sans text-center md:text-left">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji.</p>
-            <p class="font-sans text-center md:text-left">Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.</p>
-            <div class="flex justify-center md:justify-start mt-4 md:mt-10">
-                <button class="bg-green-700 hover:bg-green-950 text-white font-bold py-2 px-4 border-2 border-green-700 mt-5 md:mt-12 ml-5 md:ml-12 rounded-3xl">Skontaktuj się z nami</button>
-                <button class="bg-white hover:bg-gray-400 text-green-700 font-bold py-2 px-4 border-2 border-green-700 mt-5 md:mt-12 ml-5 md:ml-12 rounded-3xl" style="display: flex; align-items: center; "
-                 <span>Zobacz nasze realizacje  <img class="ml-2" src="./icon/Vector-zobacz nasze realizacje.png"></span>  
-                </div>
+        <div class="w-full md:w-1/2 h-full mt-4 md:mt-72 md:ml-4">
+             <h1 class="mt-4 md:mt-12 font-serif text-4xl text-center md:text-left">Nowoczesna </br> aranżacja</h1>
+             <h1 class="font-serif text-4xl text-center md:text-left">Twojego ogrodu</h1>
+             <p class="mt-4 md:mt-6 font-sans text-center md:text-left">Marka GiardDesign to wieloletnie doświadczenie i wysoka </br> estetyka realizacji.
+             Oferujemy kompleksowy zakres usług </br> z indywidualnym podejściem do każdego projektu.</p>
+             <div class="flex justify-center md:justify-start mt-4 md:mt-6">
+                 <button class="bg-green-900 hover:bg-green-950 text-white font-bold py-2 px-4 border-2 border-green-700 mt-5 md:mt-8 ml-5 md:ml-0 mb-4 rounded-3xl">Skontaktuj się z nami</button>
+                 <button class="bg-white hover:bg-green-400 text-green-700 font-bold py-2 px-4 border-2 border-green-700 mt-5 md:mt-8 ml-5 md:ml-6 rounded-3xl mb-4 flex items-center" style="display: flex; align-items: center;">
+                 <span>Zobacz nasze realizacje</span><img class="ml-2" src="./icon/Vector-zobacz nasze realizacje.png">
+                </button>
+            </div>
         </div>
-        <div class="w-full md:w-1/2 h-full bg-cover bg-center" style="background-image: url('./img/main-photo.png');">
+        <div class="w-full md:w-1/2 h-full bg-cover bg-center bg-no-repeat" style="background-image: url('./img/main-photo.png');">
         </div>
     </div>
 
 
     <div class="box-border w-full p-4 bg-orange-100">
         <div>
-            <h1 class="mt-20 font-serif text-4xl md:ml-48">Działamy kompleksowo</h1>
-            <p class="mt-10 mb-10 font-serif mx-4 md:ml-48">
+            <h1 class="mt-20 font-serif text-4xl text-center md:text-left md:ml-48">Działamy kompleksowo</h1>
+            <p class="mt-10 mb-10 font-serif mx-4 text-center md:text-left md:ml-48">
                 Oferujemy kompletną obsługę inwestycji terenów zielonych.
                 Projektujemy nowoczesne ogrody</br> przydomowe oraz rezydencjonalne.
                 Stworzymy dla Ciebie projekt,
@@ -68,14 +67,13 @@
                 i wieloletnim doświadczeniem.
             </p>
         </div>
-   
     
         <div class="flex flex-col md:flex-row mx-4 mb-20 mt-20">
-            <div class="md:flex-1 mb-6 md:mb-0">
-                <div class="bg-white w-72 h-72 p-4 m-auto rounded-3xl">
+            <div class="md:flex-1 mb-6 md:mb-0 md:mt-6">
+                <div class="bg-white w-72 h-72 p-4 m-auto rounded-3xl transform transition-transform hover:scale-105 hover:shadow-lg">
                     <img class="object-none object-left-top mt-1 ml-1 w-12 h-12" src="./icon/Icon-pen.png">
-                    <h1 class="text-xl font-serif mb-4 mt-4">Projekty</h1>
-                    <p class="text-xs">Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem
+                    <h1 class="text-xl font-serif mb-4 mt-4 text-center md:text-left">Projekty</h1>
+                    <p class="text-xs text-center md:text-left">Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem
                         istniejącej przestrzeni.</p>
                     <button class="relative flex items-center mt-10 text-green-700 hover:text-green-900 focus:outline-none">
                         <span class="relative z-10">Dowiedz się więcej</span>
@@ -84,11 +82,11 @@
                     </button>
                 </div>
             </div>
-            <div class="md:flex-1 mb-6 md:mb-0">
-                <div class="bg-white w-72 h-72 p-4 m-auto rounded-3xl">
+            <div class="md:flex-1 mb-6 md:mb-0 md:mt-6">
+                <div class="bg-white w-72 h-72 p-4 m-auto rounded-3xl transform transition-transform hover:scale-105 hover:shadow-lg">
                     <img class="object-none object-left-top mt-1 ml-1 w-12 h-12" src="./icon/Icon-eyes.png">
-                    <h1 class="text-xl font-serif mb-4 mt-4">Wizualizacje</h1>
-                    <p class="text-xs">Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w
+                    <h1 class="text-xl font-serif mb-4 mt-4 text-center md:text-left">Wizualizacje</h1>
+                    <p class="text-xs text-center md:text-left">Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w
                         technologii 3D.</p>
                     <button class="relative flex items-center mt-10 text-green-700 hover:text-green-900 focus:outline-none">
                         <span class="relative z-10">Dowiedz się więcej</span>
@@ -97,29 +95,32 @@
                     </button>
                 </div>
             </div>
-            <div class="md:flex-1">
-                <div class="bg-white w-72 h-72 p-4 m-auto rounded-3xl">
-                    <img class="object-none object-left-top mt-1 ml-1 w-12 h-12" src="./icon/Icon-stars.png">
-                    <h1 class="text-xl font-serif mb-4 mt-4">Realizacje</h1>
-                    <p class="text-xs">Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych
+            <div class="md:flex-1 mb-6 md:mb-0 md:mt-6">
+                <div class="bg-white w-72 h-72 p-4 m-auto rounded-3xl transform transition-transform hover:scale-105 hover:shadow-lg">
+                     <img class="object-none object-left-top mt-1 ml-1 w-12 h-12" src="./icon/Icon-stars.png">
+                     <h1 class="text-xl font-serif mb-4 mt-4 text-center md:text-left">Realizacje</h1>
+                     <p class="text-xs text-center md:text-left">Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych
                         technologii.</p>
                     <button class="relative flex items-center mt-10 text-green-700 hover:text-green-900 focus:outline-none">
-                        <span class="relative z-10">Zobacz nasze realizacje</span>
-                        <img src="./icon/dowiedz sie wiecej.png" class="ml-2">
-                        <span class="absolute h-px bg-green-700 w-full -bottom-1 left-0"></span>
+                         <span class="relative z-10">Zobacz nasze realizacje</span>
+                         <img src="./icon/dowiedz sie wiecej.png" class="ml-2">
+                         <span class="absolute h-px bg-green-700 w-full -bottom-1 left-0"></span>
                     </button>
                 </div>
             </div>
         </div>
     </div>
+    
 
-    <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col-reverse md:flex-row">
         <div class="w-full md:w-1/2 h-1/2 md:h-screen bg-cover bg-center"
             style="background-image: url('./img/Photo-house.png'); background-size: cover; background-position: center;">
         </div>
-        <div class="w-full md:w-1/2 h-1/2 md:h-screen bg-green-700">
-            <h1 class="text-4xl md:text-6xl font-serif mt-5 md:mt-40 ml-5 md:ml-36 text-white">Tworzymy <br /> z pasją</h1>
-            <p class="font-serif mt-5 md:mt-10 ml-5 md:ml-36 mr-5 md:mr-10 text-white">
+        <div class="w-full md:w-1/2 h-auto md:h-screen bg-green-900 text-white p-5 flex flex-col justify-center items-center md:items-start">
+            <h1 class="text-4xl md:text-6xl font-serif mt-5 md:mt-0 md:ml-8 text-center md:text-left">
+                Tworzymy <br /> z pasją
+            </h1>
+            <p class="font-serif mt-5 md:mt-10 ml-0 md:ml-8 mr-0 md:mr-10 text-center md:text-left">
                 Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani projektanci oraz architekci,
                 których zadaniem jest rozpoznanie i realizacja potrzeb każdego Klienta. Nasza specjalizacja to
                 przestrzenie nowoczesne,
@@ -127,102 +128,97 @@
                 dostosowane do współczesnego trybu życia.
             </p>
             <button
-                class= "bg-green-700 flex items-center hover:bg-green-950 text-white font-bold py-2 px-4 border-2 border-white mt-5 md:mt-24 ml-5 md:ml-36 rounded-3xl">
+                class="bg-green-900 flex items-center hover:bg-green-950 text-white font-bold py-2 px-4 border-2 border-white mt-5 md:mt-10 ml-0 md:ml-8 rounded-3xl">
                 <span>Poznaj nas bliżej</span>
                 <img src="./icon/Vector-Tworzymy z pasją.png" class="ml-2">
             </button>
         </div>
     </div>
-<div class="flex bg-orange-200">
-    <div class="container mx-auto">
-        <h1 class="text-4xl font-semibold m-28 font-serif">Nasze Projekty</h1>
-            <div class=" gap-6 columns-3">
-                <img id="photo1" class="w-full aspect-video mb-6" src="./img/Photo-gallery.png" />
-                <img id="photo2" class="w-full aspect-square mb-6 blur" src="./img/Photo-gallery-2.png" />
-                <img id="photo3" class="w-full aspect-square mb-6" src="./img/Photo-gallery-3.png" />
-                <img id="photo4" class="w-full aspect-square mb-6 blur" src="./img/Photo-gallery-4.png" />
-                <img id="photo5" class="w-full aspect-video mb-6" src="./img/Photo-gallery-5.png" />
-                <img id="photo6" class="w-full aspect-square mb-6 blur" src="./img/Photo-gallery-6.png" />
-                <img id="photo7" class="w-full aspect-square mb-6" src="./img/Photo-gallery-7.png" />
-                <img id="photo8" class="w-full aspect-square mb-6" src="./img/Photo-gallery-8.png" />
-                <img id="photo9" class="w-full aspect-video mb-6" src="./img/Photo-gallery-9.png" />       
+    <div class="flex bg-orange-200">
+        <div class="container mx-auto">
+             <h1 class="text-4xl font-semibold m-28 font-serif">Nasze Projekty</h1>
+                <div class=" gap-6 columns-3">
+                     <img id="photo1" class="w-full aspect-video mb-6" src="./img/Photo-gallery.png" />
+                     <img id="photo2" class="w-full aspect-square mb-6 blur" src="./img/Photo-gallery-2.png" />
+                     <img id="photo3" class="w-full aspect-square mb-6" src="./img/Photo-gallery-3.png" />
+                     <img id="photo4" class="w-full aspect-square mb-6 blur" src="./img/Photo-gallery-4.png" />
+                     <img id="photo5" class="w-full aspect-video mb-6" src="./img/Photo-gallery-5.png" />
+                     <img id="photo6" class="w-full aspect-square mb-6 blur" src="./img/Photo-gallery-6.png" />
+                     <img id="photo7" class="w-full aspect-square mb-6" src="./img/Photo-gallery-7.png" />
+                     <img id="photo8" class="w-full aspect-square mb-6" src="./img/Photo-gallery-8.png" />
+                     <img id="photo9" class="w-full aspect-video mb-6" src="./img/Photo-gallery-9.png" />       
                      
-            </div>
-            <div class="flex justify-center items-center">
-                <button id="rozwinBtn" class="hover:bg-orange-300 flex items-center text-black border-2 border-black py-2 px-4 rounded-2xl mt-2 mb-6">
-                    <span>Rozwiń</span>
-                    <img src="./icon/Vector-rozwiń.png" class="ml-2">
-                </button>
-            </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <button id="rozwinBtn" class="hover:bg-orange-300 flex items-center text-black border-2 border-black py-2 px-4 rounded-2xl mt-2 mb-6">
+                         <span>Rozwiń</span>
+                         <img src="./icon/Vector-rozwiń.png" class="ml-2">
+                    </button>
+                </div>
+        </div>
+
     </div>
 
-</div>
-
-<div class="md:container md:mx-auto">
-    <div class="flex items-center justify-center">
-        <div class="box-content h-64 w-full md:w-1000 p-4 border-4 mt-6 mb-6 flex flex-col md:flex-row md:justify-between md:items-center bg-green-900">
-            <div class="font-serif text-3xl md:w-1/2 ml-4 md:ml-36 md:mb-0 mt-4 md:mt-0">
-                <h1 class="text-white">Zostańmy w kontakcie!</h1>
-                <p class="text-white">Znajdziesz nas na Instagramie.</p>
-            </div>
-            <div class="font-serif md:w-1/2 md:text-center mt-4 md:mt-0">
-                <p class="text-white">Śledź nasze najnowsze realizacje!</p>
-                <button class="hover:bg-green-400 bg-white text-green-700 py-2 px-4 rounded-3xl mt-2 mb-3">Instagram</button>
+    <div class="md:container md:mx-auto">
+        <div class="flex items-center justify-center">
+            <div class="box-content h-64 w-full md:w-1000 p-4 border-4 mt-6 mb-6 flex flex-col md:flex-row md:justify-between md:items-center bg-green-900">
+                <div class="font-serif text-3xl md:w-1/2 ml-4 md:ml-36 md:mb-0 mt-4 md:mt-0">
+                    <h1 class="text-white">Zostańmy w kontakcie!</h1>
+                    <p class="text-white">Znajdziesz nas na Instagramie.</p>
+                </div>
+                <div class="font-serif md:w-1/2 md:text-center mt-4 md:mt-0">
+                    <p class="text-white">Śledź nasze najnowsze realizacje!</p>
+                    <button class="hover:bg-green-400 bg-white text-green-700 py-2 px-4 rounded-3xl mt-2 mb-3">Instagram</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
     <footer class="bg-black text-white py-6">
 
         <div class="container mx-auto lg:w-1000 flex flex-col lg:flex-row items-center justify-between">
-    
+
             <div class="mb-4 lg:mb-0 lg:mr-12 text-center lg:text-left">
-                <h1 class="logo">giard<span class="text-gray-400">design</span></h1>
+                 <h1 class="logo">giard<span class="text-gray-400">design</span></h1>
             </div>
-    
+
             <div class="flex flex-col lg:flex-row items-center ">
-                <p class="mb-2 lg:mb-0 lg:mr-4 text-center lg:text-left">Daj znać, co możemy dla Ciebie zrobić!</p>
-                <button class="bg-green-900 text-white py-2 px-4 rounded-full">
-                    Skontaktuj się z nami
-                </button>
+                 <p class="mb-2 lg:mb-0 lg:mr-4 text-center lg:text-left">Daj znać, co możemy dla Ciebie zrobić!</p>
+                 <button class="bg-green-900 hover:bg-green-400 text-white py-2 px-4 rounded-full">
+                 Skontaktuj się z nami
+                 </button>
             </div>
         </div>
-    
-        <div class="container mx-auto lg:w-1000 mt-12 mb-6">
-            <img src="./img/Line.png" alt="Twoje Zdjęcie" class="my-6">
-        </div>
-    
+
+         <div class="container mx-auto lg:w-1000 mt-12 mb-6">
+             <img src="./img/Line.png" alt="Twoje Zdjęcie" class="my-6">
+         </div>
+
         <div class="container mx-auto lg:w-1000 mt-12 flex flex-col lg:flex-row justify-between text-center lg:text-left">
             <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
-                <p>Kontakt</p>
-                <p>Instagram</p>
-                <p>Facebook</p>
-                <p>Linkedin</p>
+                 <p>Kontakt</p>
+                 <p>Instagram</p>
+                 <p>Facebook</p>
+                 <p>Linkedin</p>
             </div>
             <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 mt-4 lg:mt-0">
-                <p>000-000-000</p>
-                <p>giarddesign@kontakt.pl</p>
+                 <p>000-000-000</p>
+                 <p>giarddesign@kontakt.pl</p>
             </div>
         </div>
-    
+
         <div class="container mx-auto lg:w-1000 mt-20 flex flex-col lg:flex-row justify-between items-center text-center">
             <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
-                <p>Prawa zastrzeżone © 2022</p>
+                 <p>Prawa zastrzeżone © 2022</p>
             </div>
             <div class="flex items-center">
-                <p class="mr-2">made by</p>
-                <img src="./img/logo.png">
+                 <p class="mr-2">made by</p>
+                 <img src="./img/logo.png">
             </div>
         </div>
     </footer>
-   
-
-
-
-
 
     <script src="./src/app.js"></script>
-    
+  
 </body>
 
 </html>
